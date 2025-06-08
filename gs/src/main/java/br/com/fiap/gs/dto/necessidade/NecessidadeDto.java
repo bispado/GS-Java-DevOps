@@ -7,7 +7,7 @@ import br.com.fiap.gs.model.enums.TipoNecessidade;
 
 
 public record NecessidadeDto(
-        Long id,
+        // Long id, // Removido para a criação de novas necessidades
 
         TipoNecessidade tipo,
 

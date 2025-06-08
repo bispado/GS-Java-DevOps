@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 public record UsuarioDto(
 
-        Long id,
+        // Long id, // Removido para a criação de novos usuários
 
         String nome,
 

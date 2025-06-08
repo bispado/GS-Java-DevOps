@@ -41,13 +41,18 @@ public class Abrigo {
         this.necessidades = necessidades;
     }
 
+    public Abrigo(String nome, String endereco, Integer capacidadeMaxima, List<Usuario> usuario, List<Necessidade> necessidades) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.capacidadeMaxima = capacidadeMaxima;
+        this.usuario = usuario;
+        this.necessidades = necessidades;
+    }
+
     public Abrigo(AbrigoDto dto) {
         this.nome = dto.nome();
         this.endereco = dto.endereco();
         this.capacidadeMaxima = dto.capacidadeMaxima();
-        this.usuario = dto.usuario();
-        this.necessidades = dto.necessidades();
-
     }
 
 
