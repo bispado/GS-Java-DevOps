@@ -218,18 +218,3 @@ Invoke-RestMethod -Uri "http://localhost:8080/abrigo" -Method GET
 ```powershell
 docker-compose down -v
 ```
-
----
-
-## 📝 Notas para a Apresentação em Vídeo
-
-*   **Explicação Clara:** Para cada comando executado, explique o que você está fazendo, o porquê e o que espera ver como resultado.
-*   **Qualidade Visual:** Certifique-se de que o texto no terminal esteja legível. Aumente o tamanho da fonte se necessário.
-*   **Pacing:** Não corra. Dê tempo para os comandos serem executados e para você explicar.
-*   **Transições:** Ao alternar entre a execução de comandos e a verificação de logs ou saídas, explique a transição para o espectador.
-*   **Cópia de Arquivos SQL:** Lembre-se que o `docker cp` e `Remove-Item` são para gerenciamento de arquivos temporários e não precisam de explicação aprofundada, apenas que servem para executar as queries no DB.
-*   **ID do Abrigo:** O ID padrão para o primeiro abrigo criado será '1'. Se você criar múltiplos abrigos, os IDs podem aumentar. Ajuste o `/abrigo/{id}` conforme necessário.
-
----
-
-Este `README.md` deve servir como um guia sólido para sua apresentação, cobrindo todos os aspectos técnicos e de demonstração do seu projeto DevOps. Boa sorte!
